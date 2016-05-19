@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F542B9E01CED95F5009E07E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F542B9DF1CED95F5009E07E7 /* main.m */; };
+		F542B9E31CED95F5009E07E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F542B9E21CED95F5009E07E7 /* AppDelegate.m */; };
+		F542B9E61CED95F5009E07E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F542B9E51CED95F5009E07E7 /* ViewController.m */; };
+		F542B9EB1CED95F5009E07E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F542B9EA1CED95F5009E07E7 /* Assets.xcassets */; };
+		F542B9EE1CED95F5009E07E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F542B9EC1CED95F5009E07E7 /* LaunchScreen.storyboard */; };
+		F542B9F91CED95F5009E07E7 /* jianbianAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F542B9F81CED95F5009E07E7 /* jianbianAnimationTests.m */; };
+		F542BA041CED95F5009E07E7 /* jianbianAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F542BA031CED95F5009E07E7 /* jianbianAnimationUITests.m */; };
+		F542BA131CED9EF7009E07E7 /* Launch.m in Sources */ = {isa = PBXBuildFile; fileRef = F542BA121CED9EF7009E07E7 /* Launch.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F542B9F51CED95F5009E07E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F542B9D31CED95F5009E07E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F542B9DA1CED95F5009E07E7;
+			remoteInfo = jianbianAnimation;
+		};
+		F542BA001CED95F5009E07E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F542B9D31CED95F5009E07E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F542B9DA1CED95F5009E07E7;
+			remoteInfo = jianbianAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F542B9DB1CED95F5009E07E7 /* jianbianAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jianbianAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F542B9DF1CED95F5009E07E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F542B9E11CED95F5009E07E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F542B9E21CED95F5009E07E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F542B9E41CED95F5009E07E7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F542B9E51CED95F5009E07E7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F542B9EA1CED95F5009E07E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F542B9ED1CED95F5009E07E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F542B9EF1CED95F5009E07E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F542B9F41CED95F5009E07E7 /* jianbianAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jianbianAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F542B9F81CED95F5009E07E7 /* jianbianAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jianbianAnimationTests.m; sourceTree = "<group>"; };
+		F542B9FA1CED95F5009E07E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F542B9FF1CED95F5009E07E7 /* jianbianAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jianbianAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F542BA031CED95F5009E07E7 /* jianbianAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jianbianAnimationUITests.m; sourceTree = "<group>"; };
+		F542BA051CED95F5009E07E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F542BA111CED9EF7009E07E7 /* Launch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Launch.h; sourceTree = "<group>"; };
+		F542BA121CED9EF7009E07E7 /* Launch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Launch.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F542B9D81CED95F5009E07E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F542B9F11CED95F5009E07E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F542B9FC1CED95F5009E07E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F542B9D21CED95F5009E07E7 = {
+			isa = PBXGroup;
+			children = (
+				F542B9DD1CED95F5009E07E7 /* jianbianAnimation */,
+				F542B9F71CED95F5009E07E7 /* jianbianAnimationTests */,
+				F542BA021CED95F5009E07E7 /* jianbianAnimationUITests */,
+				F542B9DC1CED95F5009E07E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F542B9DC1CED95F5009E07E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F542B9DB1CED95F5009E07E7 /* jianbianAnimation.app */,
+				F542B9F41CED95F5009E07E7 /* jianbianAnimationTests.xctest */,
+				F542B9FF1CED95F5009E07E7 /* jianbianAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F542B9DD1CED95F5009E07E7 /* jianbianAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				F542B9E11CED95F5009E07E7 /* AppDelegate.h */,
+				F542B9E21CED95F5009E07E7 /* AppDelegate.m */,
+				F542B9E41CED95F5009E07E7 /* ViewController.h */,
+				F542B9E51CED95F5009E07E7 /* ViewController.m */,
+				F542BA111CED9EF7009E07E7 /* Launch.h */,
+				F542BA121CED9EF7009E07E7 /* Launch.m */,
+				F542B9EA1CED95F5009E07E7 /* Assets.xcassets */,
+				F542B9EC1CED95F5009E07E7 /* LaunchScreen.storyboard */,
+				F542B9EF1CED95F5009E07E7 /* Info.plist */,
+				F542B9DE1CED95F5009E07E7 /* Supporting Files */,
+			);
+			path = jianbianAnimation;
+			sourceTree = "<group>";
+		};
+		F542B9DE1CED95F5009E07E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F542B9DF1CED95F5009E07E7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F542B9F71CED95F5009E07E7 /* jianbianAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				F542B9F81CED95F5009E07E7 /* jianbianAnimationTests.m */,
+				F542B9FA1CED95F5009E07E7 /* Info.plist */,
+			);
+			path = jianbianAnimationTests;
+			sourceTree = "<group>";
+		};
+		F542BA021CED95F5009E07E7 /* jianbianAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F542BA031CED95F5009E07E7 /* jianbianAnimationUITests.m */,
+				F542BA051CED95F5009E07E7 /* Info.plist */,
+			);
+			path = jianbianAnimationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F542B9DA1CED95F5009E07E7 /* jianbianAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F542BA081CED95F5009E07E7 /* Build configuration list for PBXNativeTarget "jianbianAnimation" */;
+			buildPhases = (
+				F542B9D71CED95F5009E07E7 /* Sources */,
+				F542B9D81CED95F5009E07E7 /* Frameworks */,
+				F542B9D91CED95F5009E07E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jianbianAnimation;
+			productName = jianbianAnimation;
+			productReference = F542B9DB1CED95F5009E07E7 /* jianbianAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F542B9F31CED95F5009E07E7 /* jianbianAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F542BA0B1CED95F5009E07E7 /* Build configuration list for PBXNativeTarget "jianbianAnimationTests" */;
+			buildPhases = (
+				F542B9F01CED95F5009E07E7 /* Sources */,
+				F542B9F11CED95F5009E07E7 /* Frameworks */,
+				F542B9F21CED95F5009E07E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F542B9F61CED95F5009E07E7 /* PBXTargetDependency */,
+			);
+			name = jianbianAnimationTests;
+			productName = jianbianAnimationTests;
+			productReference = F542B9F41CED95F5009E07E7 /* jianbianAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F542B9FE1CED95F5009E07E7 /* jianbianAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F542BA0E1CED95F5009E07E7 /* Build configuration list for PBXNativeTarget "jianbianAnimationUITests" */;
+			buildPhases = (
+				F542B9FB1CED95F5009E07E7 /* Sources */,
+				F542B9FC1CED95F5009E07E7 /* Frameworks */,
+				F542B9FD1CED95F5009E07E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F542BA011CED95F5009E07E7 /* PBXTargetDependency */,
+			);
+			name = jianbianAnimationUITests;
+			productName = jianbianAnimationUITests;
+			productReference = F542B9FF1CED95F5009E07E7 /* jianbianAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F542B9D31CED95F5009E07E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = lj;
+				TargetAttributes = {
+					F542B9DA1CED95F5009E07E7 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					F542B9F31CED95F5009E07E7 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F542B9DA1CED95F5009E07E7;
+					};
+					F542B9FE1CED95F5009E07E7 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F542B9DA1CED95F5009E07E7;
+					};
+				};
+			};
+			buildConfigurationList = F542B9D61CED95F5009E07E7 /* Build configuration list for PBXProject "jianbianAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F542B9D21CED95F5009E07E7;
+			productRefGroup = F542B9DC1CED95F5009E07E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F542B9DA1CED95F5009E07E7 /* jianbianAnimation */,
+				F542B9F31CED95F5009E07E7 /* jianbianAnimationTests */,
+				F542B9FE1CED95F5009E07E7 /* jianbianAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F542B9D91CED95F5009E07E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F542B9EE1CED95F5009E07E7 /* LaunchScreen.storyboard in Resources */,
+				F542B9EB1CED95F5009E07E7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F542B9F21CED95F5009E07E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F542B9FD1CED95F5009E07E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F542B9D71CED95F5009E07E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F542B9E61CED95F5009E07E7 /* ViewController.m in Sources */,
+				F542B9E31CED95F5009E07E7 /* AppDelegate.m in Sources */,
+				F542BA131CED9EF7009E07E7 /* Launch.m in Sources */,
+				F542B9E01CED95F5009E07E7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F542B9F01CED95F5009E07E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F542B9F91CED95F5009E07E7 /* jianbianAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F542B9FB1CED95F5009E07E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F542BA041CED95F5009E07E7 /* jianbianAnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F542B9F61CED95F5009E07E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F542B9DA1CED95F5009E07E7 /* jianbianAnimation */;
+			targetProxy = F542B9F51CED95F5009E07E7 /* PBXContainerItemProxy */;
+		};
+		F542BA011CED95F5009E07E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F542B9DA1CED95F5009E07E7 /* jianbianAnimation */;
+			targetProxy = F542BA001CED95F5009E07E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F542B9EC1CED95F5009E07E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F542B9ED1CED95F5009E07E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F542BA061CED95F5009E07E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F542BA071CED95F5009E07E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F542BA091CED95F5009E07E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = jianbianAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lj.jianbianAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F542BA0A1CED95F5009E07E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = jianbianAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lj.jianbianAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F542BA0C1CED95F5009E07E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = jianbianAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lj.jianbianAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jianbianAnimation.app/jianbianAnimation";
+			};
+			name = Debug;
+		};
+		F542BA0D1CED95F5009E07E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = jianbianAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lj.jianbianAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jianbianAnimation.app/jianbianAnimation";
+			};
+			name = Release;
+		};
+		F542BA0F1CED95F5009E07E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = jianbianAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lj.jianbianAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = jianbianAnimation;
+			};
+			name = Debug;
+		};
+		F542BA101CED95F5009E07E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = jianbianAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lj.jianbianAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = jianbianAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F542B9D61CED95F5009E07E7 /* Build configuration list for PBXProject "jianbianAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F542BA061CED95F5009E07E7 /* Debug */,
+				F542BA071CED95F5009E07E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F542BA081CED95F5009E07E7 /* Build configuration list for PBXNativeTarget "jianbianAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F542BA091CED95F5009E07E7 /* Debug */,
+				F542BA0A1CED95F5009E07E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F542BA0B1CED95F5009E07E7 /* Build configuration list for PBXNativeTarget "jianbianAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F542BA0C1CED95F5009E07E7 /* Debug */,
+				F542BA0D1CED95F5009E07E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F542BA0E1CED95F5009E07E7 /* Build configuration list for PBXNativeTarget "jianbianAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F542BA0F1CED95F5009E07E7 /* Debug */,
+				F542BA101CED95F5009E07E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F542B9D31CED95F5009E07E7 /* Project object */;
+}
