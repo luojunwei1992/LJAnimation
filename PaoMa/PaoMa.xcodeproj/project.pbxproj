@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F50CD0B31CF3F45A0041F141 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F50CD0B21CF3F45A0041F141 /* main.m */; };
+		F50CD0B61CF3F45A0041F141 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F50CD0B51CF3F45A0041F141 /* AppDelegate.m */; };
+		F50CD0B91CF3F45A0041F141 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F50CD0B81CF3F45A0041F141 /* ViewController.m */; };
+		F50CD0BC1CF3F45A0041F141 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F50CD0BA1CF3F45A0041F141 /* Main.storyboard */; };
+		F50CD0BE1CF3F45A0041F141 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F50CD0BD1CF3F45A0041F141 /* Assets.xcassets */; };
+		F50CD0C11CF3F45A0041F141 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F50CD0BF1CF3F45A0041F141 /* LaunchScreen.storyboard */; };
+		F50CD0CC1CF3F45A0041F141 /* PaoMaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F50CD0CB1CF3F45A0041F141 /* PaoMaTests.m */; };
+		F50CD0D71CF3F45A0041F141 /* PaoMaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F50CD0D61CF3F45A0041F141 /* PaoMaUITests.m */; };
+		F50CD0E61CF3F53E0041F141 /* LJPaoMaView.m in Sources */ = {isa = PBXBuildFile; fileRef = F50CD0E51CF3F53E0041F141 /* LJPaoMaView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F50CD0C81CF3F45A0041F141 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F50CD0A61CF3F45A0041F141 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F50CD0AD1CF3F45A0041F141;
+			remoteInfo = PaoMa;
+		};
+		F50CD0D31CF3F45A0041F141 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F50CD0A61CF3F45A0041F141 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F50CD0AD1CF3F45A0041F141;
+			remoteInfo = PaoMa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F50CD0AE1CF3F45A0041F141 /* PaoMa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaoMa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F50CD0B21CF3F45A0041F141 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F50CD0B41CF3F45A0041F141 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F50CD0B51CF3F45A0041F141 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F50CD0B71CF3F45A0041F141 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F50CD0B81CF3F45A0041F141 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F50CD0BB1CF3F45A0041F141 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F50CD0BD1CF3F45A0041F141 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F50CD0C01CF3F45A0041F141 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F50CD0C21CF3F45A0041F141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F50CD0C71CF3F45A0041F141 /* PaoMaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaoMaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F50CD0CB1CF3F45A0041F141 /* PaoMaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaoMaTests.m; sourceTree = "<group>"; };
+		F50CD0CD1CF3F45A0041F141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F50CD0D21CF3F45A0041F141 /* PaoMaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaoMaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F50CD0D61CF3F45A0041F141 /* PaoMaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaoMaUITests.m; sourceTree = "<group>"; };
+		F50CD0D81CF3F45A0041F141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F50CD0E41CF3F53E0041F141 /* LJPaoMaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJPaoMaView.h; sourceTree = "<group>"; };
+		F50CD0E51CF3F53E0041F141 /* LJPaoMaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJPaoMaView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F50CD0AB1CF3F45A0041F141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F50CD0C41CF3F45A0041F141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F50CD0CF1CF3F45A0041F141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F50CD0A51CF3F45A0041F141 = {
+			isa = PBXGroup;
+			children = (
+				F50CD0B01CF3F45A0041F141 /* PaoMa */,
+				F50CD0CA1CF3F45A0041F141 /* PaoMaTests */,
+				F50CD0D51CF3F45A0041F141 /* PaoMaUITests */,
+				F50CD0AF1CF3F45A0041F141 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F50CD0AF1CF3F45A0041F141 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F50CD0AE1CF3F45A0041F141 /* PaoMa.app */,
+				F50CD0C71CF3F45A0041F141 /* PaoMaTests.xctest */,
+				F50CD0D21CF3F45A0041F141 /* PaoMaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F50CD0B01CF3F45A0041F141 /* PaoMa */ = {
+			isa = PBXGroup;
+			children = (
+				F50CD0B41CF3F45A0041F141 /* AppDelegate.h */,
+				F50CD0B51CF3F45A0041F141 /* AppDelegate.m */,
+				F50CD0B71CF3F45A0041F141 /* ViewController.h */,
+				F50CD0B81CF3F45A0041F141 /* ViewController.m */,
+				F50CD0E41CF3F53E0041F141 /* LJPaoMaView.h */,
+				F50CD0E51CF3F53E0041F141 /* LJPaoMaView.m */,
+				F50CD0BA1CF3F45A0041F141 /* Main.storyboard */,
+				F50CD0BD1CF3F45A0041F141 /* Assets.xcassets */,
+				F50CD0BF1CF3F45A0041F141 /* LaunchScreen.storyboard */,
+				F50CD0C21CF3F45A0041F141 /* Info.plist */,
+				F50CD0B11CF3F45A0041F141 /* Supporting Files */,
+			);
+			path = PaoMa;
+			sourceTree = "<group>";
+		};
+		F50CD0B11CF3F45A0041F141 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F50CD0B21CF3F45A0041F141 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F50CD0CA1CF3F45A0041F141 /* PaoMaTests */ = {
+			isa = PBXGroup;
+			children = (
+				F50CD0CB1CF3F45A0041F141 /* PaoMaTests.m */,
+				F50CD0CD1CF3F45A0041F141 /* Info.plist */,
+			);
+			path = PaoMaTests;
+			sourceTree = "<group>";
+		};
+		F50CD0D51CF3F45A0041F141 /* PaoMaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F50CD0D61CF3F45A0041F141 /* PaoMaUITests.m */,
+				F50CD0D81CF3F45A0041F141 /* Info.plist */,
+			);
+			path = PaoMaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F50CD0AD1CF3F45A0041F141 /* PaoMa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F50CD0DB1CF3F45A0041F141 /* Build configuration list for PBXNativeTarget "PaoMa" */;
+			buildPhases = (
+				F50CD0AA1CF3F45A0041F141 /* Sources */,
+				F50CD0AB1CF3F45A0041F141 /* Frameworks */,
+				F50CD0AC1CF3F45A0041F141 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaoMa;
+			productName = PaoMa;
+			productReference = F50CD0AE1CF3F45A0041F141 /* PaoMa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F50CD0C61CF3F45A0041F141 /* PaoMaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F50CD0DE1CF3F45A0041F141 /* Build configuration list for PBXNativeTarget "PaoMaTests" */;
+			buildPhases = (
+				F50CD0C31CF3F45A0041F141 /* Sources */,
+				F50CD0C41CF3F45A0041F141 /* Frameworks */,
+				F50CD0C51CF3F45A0041F141 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F50CD0C91CF3F45A0041F141 /* PBXTargetDependency */,
+			);
+			name = PaoMaTests;
+			productName = PaoMaTests;
+			productReference = F50CD0C71CF3F45A0041F141 /* PaoMaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F50CD0D11CF3F45A0041F141 /* PaoMaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F50CD0E11CF3F45A0041F141 /* Build configuration list for PBXNativeTarget "PaoMaUITests" */;
+			buildPhases = (
+				F50CD0CE1CF3F45A0041F141 /* Sources */,
+				F50CD0CF1CF3F45A0041F141 /* Frameworks */,
+				F50CD0D01CF3F45A0041F141 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F50CD0D41CF3F45A0041F141 /* PBXTargetDependency */,
+			);
+			name = PaoMaUITests;
+			productName = PaoMaUITests;
+			productReference = F50CD0D21CF3F45A0041F141 /* PaoMaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F50CD0A61CF3F45A0041F141 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = lj;
+				TargetAttributes = {
+					F50CD0AD1CF3F45A0041F141 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					F50CD0C61CF3F45A0041F141 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F50CD0AD1CF3F45A0041F141;
+					};
+					F50CD0D11CF3F45A0041F141 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F50CD0AD1CF3F45A0041F141;
+					};
+				};
+			};
+			buildConfigurationList = F50CD0A91CF3F45A0041F141 /* Build configuration list for PBXProject "PaoMa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F50CD0A51CF3F45A0041F141;
+			productRefGroup = F50CD0AF1CF3F45A0041F141 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F50CD0AD1CF3F45A0041F141 /* PaoMa */,
+				F50CD0C61CF3F45A0041F141 /* PaoMaTests */,
+				F50CD0D11CF3F45A0041F141 /* PaoMaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F50CD0AC1CF3F45A0041F141 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F50CD0C11CF3F45A0041F141 /* LaunchScreen.storyboard in Resources */,
+				F50CD0BE1CF3F45A0041F141 /* Assets.xcassets in Resources */,
+				F50CD0BC1CF3F45A0041F141 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F50CD0C51CF3F45A0041F141 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F50CD0D01CF3F45A0041F141 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F50CD0AA1CF3F45A0041F141 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F50CD0B91CF3F45A0041F141 /* ViewController.m in Sources */,
+				F50CD0B61CF3F45A0041F141 /* AppDelegate.m in Sources */,
+				F50CD0B31CF3F45A0041F141 /* main.m in Sources */,
+				F50CD0E61CF3F53E0041F141 /* LJPaoMaView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F50CD0C31CF3F45A0041F141 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F50CD0CC1CF3F45A0041F141 /* PaoMaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F50CD0CE1CF3F45A0041F141 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F50CD0D71CF3F45A0041F141 /* PaoMaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F50CD0C91CF3F45A0041F141 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F50CD0AD1CF3F45A0041F141 /* PaoMa */;
+			targetProxy = F50CD0C81CF3F45A0041F141 /* PBXContainerItemProxy */;
+		};
+		F50CD0D41CF3F45A0041F141 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F50CD0AD1CF3F45A0041F141 /* PaoMa */;
+			targetProxy = F50CD0D31CF3F45A0041F141 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F50CD0BA1CF3F45A0041F141 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F50CD0BB1CF3F45A0041F141 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F50CD0BF1CF3F45A0041F141 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F50CD0C01CF3F45A0041F141 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F50CD0D91CF3F45A0041F141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F50CD0DA1CF3F45A0041F141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F50CD0DC1CF3F45A0041F141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PaoMa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lj.PaoMa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F50CD0DD1CF3F45A0041F141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PaoMa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lj.PaoMa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F50CD0DF1CF3F45A0041F141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PaoMaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lj.PaoMaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaoMa.app/PaoMa";
+			};
+			name = Debug;
+		};
+		F50CD0E01CF3F45A0041F141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PaoMaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lj.PaoMaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaoMa.app/PaoMa";
+			};
+			name = Release;
+		};
+		F50CD0E21CF3F45A0041F141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PaoMaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lj.PaoMaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PaoMa;
+			};
+			name = Debug;
+		};
+		F50CD0E31CF3F45A0041F141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PaoMaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lj.PaoMaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PaoMa;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F50CD0A91CF3F45A0041F141 /* Build configuration list for PBXProject "PaoMa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F50CD0D91CF3F45A0041F141 /* Debug */,
+				F50CD0DA1CF3F45A0041F141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F50CD0DB1CF3F45A0041F141 /* Build configuration list for PBXNativeTarget "PaoMa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F50CD0DC1CF3F45A0041F141 /* Debug */,
+				F50CD0DD1CF3F45A0041F141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F50CD0DE1CF3F45A0041F141 /* Build configuration list for PBXNativeTarget "PaoMaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F50CD0DF1CF3F45A0041F141 /* Debug */,
+				F50CD0E01CF3F45A0041F141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F50CD0E11CF3F45A0041F141 /* Build configuration list for PBXNativeTarget "PaoMaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F50CD0E21CF3F45A0041F141 /* Debug */,
+				F50CD0E31CF3F45A0041F141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F50CD0A61CF3F45A0041F141 /* Project object */;
+}
