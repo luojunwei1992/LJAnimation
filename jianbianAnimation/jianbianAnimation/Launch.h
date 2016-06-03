@@ -19,6 +19,7 @@ typedef NS_ENUM(NSUInteger,LJDisAppearStyle){
     LJDisApperaStyleRight,
     LJDisApperaStyleBottom,
     LJDisApperaStyleTop,
+    LJDisApperaStyleMiddle
 };
 
 @interface Launch : NSObject

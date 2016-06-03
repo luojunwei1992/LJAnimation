@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="12" translatesAutoresizingMaskIntoConstraints="NO" id="q0M-B5-3i5">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="q0M-B5-3i5" secondAttribute="bottom" id="0MY-xp-G12"/>
+                            <constraint firstItem="q0M-B5-3i5" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="OtS-wA-NOc"/>
+                            <constraint firstAttribute="trailing" secondItem="q0M-B5-3i5" secondAttribute="trailing" id="Sps-ZH-dew"/>
+                            <constraint firstItem="q0M-B5-3i5" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="aqo-Es-cc2"/>
+                            <constraint firstItem="q0M-B5-3i5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="oFh-6D-8YG"/>
+                            <constraint firstItem="q0M-B5-3i5" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="qsF-4l-cqa"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="OtS-wA-NOc"/>
+                                <exclude reference="qsF-4l-cqa"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="fristImageView" destination="q0M-B5-3i5" id="SsV-5y-cCE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="12" width="424" height="283"/>
+    </resources>
+</document>

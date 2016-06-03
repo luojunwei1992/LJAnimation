@@ -28,7 +28,7 @@
     //获得image截图,并进行坐标转换
     UIView * imageSnap = [fromV.secondImageview snapshotViewAfterScreenUpdates:YES];
     
-    imageSnap.frame = [containV convertRect:fromV.secondImageview.frame fromView:fromV.view];
+    imageSnap.frame = [containV convertRect:fromV.secondImageview.frame toView:fromV.view];
     
     //    隐藏from的图片
     fromV.secondImageview.hidden = YES;

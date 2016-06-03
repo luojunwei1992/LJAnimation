@@ -130,7 +130,7 @@
         }];
 
         
-    }else{
+    }else if(style == LJDisApperaStyleTop){
         
         [UIView animateWithDuration:1.5f animations:^{
             
@@ -146,6 +146,26 @@
         }];
  
     
+    }else{
+        
+        [UIView animateWithDuration:1.5f animations:^{
+            
+            _launchImage.alpha = 0.0f;
+            
+            CGRect frame = _launchImage.frame;
+            frame.origin.y = [UIScreen mainScreen].bounds.size.height;
+            
+            CATransform3D transfrom = CATransform3DRotate(CATransform3DIdentity, - M_PI, 0.0, 1.0, 0);
+            
+            transfrom.m34 = -1/2000.0;
+            
+            _launchImage.layer.transform = transfrom;
+            
+        } completion:^(BOOL finished) {
+            
+            [_launchImage removeFromSuperview];
+        }];
+
     }
 }
 

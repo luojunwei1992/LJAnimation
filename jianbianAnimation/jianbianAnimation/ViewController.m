@@ -22,7 +22,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 7;
+    return 8;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -53,10 +53,13 @@
         
         cell.textLabel.text = @"Bottom";
         
-    }else{
+    }else if(indexPath.row == 6){
         
         cell.textLabel.text = @"Top";
     
+    }else{
+        
+        cell.textLabel.text = @"middle";
     }
     
     return cell;
@@ -94,11 +97,15 @@
         Launch *la = [[Launch alloc] init];
         [la loadLaunchImageView:@"launch" disappear:LJDisApperaStyleBottom];
         
-    }else{
+    }else if(indexPath.row == 6){
         
         Launch *la = [[Launch alloc] init];
         [la loadLaunchImageView:@"launch" disappear:LJDisApperaStyleTop];
         
+    }else{
+    
+        Launch *la = [[Launch alloc] init];
+        [la loadLaunchImageView:@"launch" disappear:LJDisApperaStyleMiddle];
     }
 
 }
