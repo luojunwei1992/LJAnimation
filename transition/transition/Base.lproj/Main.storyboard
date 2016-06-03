@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RM6-qI-bfn">
+                                <rect key="frame" x="0.0" y="540" width="600" height="60"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="123" translatesAutoresizingMaskIntoConstraints="NO" id="Ai1-fq-fw7">
+                                        <rect key="frame" x="8" y="5" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="50" id="5l6-Kt-dCD"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="Ai1-fq-fw7" firstAttribute="leading" secondItem="RM6-qI-bfn" secondAttribute="leading" constant="5" id="Fbo-qV-NE0"/>
+                                    <constraint firstItem="Ai1-fq-fw7" firstAttribute="top" secondItem="RM6-qI-bfn" secondAttribute="top" constant="5" id="LyK-dr-E1y"/>
+                                    <constraint firstAttribute="bottom" secondItem="Ai1-fq-fw7" secondAttribute="bottom" constant="5" id="M7T-qx-0B8"/>
+                                    <constraint firstAttribute="height" constant="60" id="v0m-ic-Ufk"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="RM6-qI-bfn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="VzE-wY-pEU"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="RM6-qI-bfn" secondAttribute="bottom" id="hAu-Vg-089"/>
+                            <constraint firstAttribute="trailing" secondItem="RM6-qI-bfn" secondAttribute="trailing" id="qjk-c1-JYo"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="bottomView" destination="RM6-qI-bfn" id="9u1-jg-SIZ"/>
+                        <outlet property="singerImage" destination="Ai1-fq-fw7" id="v7U-FJ-8ss"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="123" width="242" height="205"/>
+    </resources>
+</document>
